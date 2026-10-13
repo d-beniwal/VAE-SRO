@@ -5,7 +5,8 @@
 This repository accompanies the paper
 
 > D. Beniwal, S. Tripathi, M. Meesa, N. Sardana, P. Singh, P. K. Ray,
-> *Learning Emergent Short-Range Order in Complex Concentrated Alloys with Physics-Informed Autoencoders* (Acta Materialia, under review).
+> *Learning Emergent Short-Range Order in Complex Concentrated Alloys with Physics-Informed Autoencoders*,
+> Acta Materialia, 122835 (2026). [doi.org/10.1016/j.actamat.2026.122835](https://doi.org/10.1016/j.actamat.2026.122835)
 
 The model maps an alloy **composition** directly to the full matrix of first-nearest-neighbour
 Warren–Cowley CSRO parameters for **all binary pairs simultaneously**. Each alloy is encoded as a
@@ -129,7 +130,20 @@ weights for transfer learning). See `docs/extending.md`.
 
 ## Citation
 
-If you use this code, please cite the paper above and the CoSMoR and MAPAL methods
+If you use this code, please cite the paper above
+
+```bibtex
+@article{beniwal2026emergent,
+  title   = {Learning Emergent Short-Range Order in Complex Concentrated Alloys with Physics-Informed Autoencoders},
+  author  = {Beniwal, Dishant and Tripathi, Shrish and Meesa, Maheshwari and Sardana, Neha and Singh, Prashant and Ray, Pratik K.},
+  journal = {Acta Materialia},
+  pages   = {122835},
+  year    = {2026},
+  doi     = {10.1016/j.actamat.2026.122835}
+}
+```
+
+and the CoSMoR and MAPAL methods
 (Beniwal & Ray, *Phys. Rev. Mater.* **7**, 043802 (2023); *Comput. Mater. Sci.* **262**, 114360 (2026)).
 
 ## License
