@@ -1,0 +1,11 @@
+# Core (pinned to the versions used for the released ensemble weights)
+tensorflow-cpu==2.15.1   # provides tf.keras / Keras 2.15; use tensorflow==2.15.1 for GPU
+numpy<2
+pandas>=1.5
+scikit-learn>=1.2
+scipy>=1.10
+matplotlib>=3.6
+openpyxl>=3.1.5
+xlsxwriter>=3.0
+# Optional: only needed to (re)generate the binary-feature stack for NEW elements
+# mapal>=1.1

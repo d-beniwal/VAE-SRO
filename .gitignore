@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# macOS
+.DS_Store
+
 # C extensions
 *.so
 
@@ -173,9 +176,24 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Cursor  
-#  Cursor is an AI-powered code editor.`.cursorignore` specifies files/directories to 
+# Cursor
+#  Cursor is an AI-powered code editor.`.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+notebooks/
+results/
+docs/extending.md
+docs/featurisation.md
+data/database/db-sro-raw-without-binary.xlsx
+data/models/
+data/training_logs/
+scripts/compute_cv_uncertainty.py
+scripts/predict_composition_path.py
+scripts/run_baselines.py
+scripts/run_holdout.py
+vae_sro/dataset.py
+vae_sro/enthalpy.py
+vae_sro/plotting.py

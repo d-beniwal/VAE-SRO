@@ -1,0 +1,14 @@
+name: vae-sro
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - tensorflow-cpu==2.15.1
+      - "numpy<2"
+      - pandas>=1.5
+      - scikit-learn>=1.2
+      - scipy>=1.10
+      - matplotlib>=3.6
+      - openpyxl>=3.1.5
+      - xlsxwriter>=3.0

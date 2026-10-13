@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vae-sro"
+version = "1.0.0"
+description = "Physics-informed variational autoencoders for chemical short-range order in complex concentrated alloys"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Dishant Beniwal"}, {name = "Shrish Tripathi"}, {name = "Maheshwari Meesa"},
+  {name = "Neha Sardana"}, {name = "Prashant Singh"}, {name = "Pratik K. Ray"},
+]
+
+[tool.setuptools.packages.find]
+include = ["vae_sro*"]
